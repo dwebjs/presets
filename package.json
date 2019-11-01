@@ -1,0 +1,32 @@
+{
+  "name": "@dwebjs/presets",
+  "description": "Library containing dWeb's default dDNS servers.",
+  "version": "1.0.0",
+  "contributors": [
+    "Jared Rice Sr. <jared@dpeeps.com>",
+    "Peeps Labs <labs@dpeeps.com>"
+  ],
+  "bugs": {
+     "url": "https://github.com/dwebjs/presets/issues"
+  },
+  "devDependencies": {
+    "@dwebjs/flock": "dwebjs/flock#master",
+    "standard": "*",
+    "tape": "^4.4.0"
+  },
+  "homepage": "https://dwebs.io",
+  "keywords": [
+    "dweb",
+    "distributed-web",
+    "dweb-presets"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwebjs/presets.git"
+  },
+  "scripts": {
+    "test": "standard && tape test/*.js"
+  }
+}
